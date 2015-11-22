@@ -1,7 +1,7 @@
 
-# Please make sure you have dplyr library installed
+# Please make sure you have dplyr and stringr libraries are installed
 library(dplyr)
-
+library(stringr)
 loadData <- function(file) {
         v <- scan(file, what = numeric())
         m <- matrix(v, ncol = 561, byrow = TRUE)
