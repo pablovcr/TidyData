@@ -8,7 +8,8 @@ loadData <- function(file) {
         m
 }
 
-setwd('C:\\Users\\Pablo\\Desktop\\Getting And Cleaning Data Project\\UCI HAR Dataset')
+# You may want to set the current directory here
+#setwd('C:\\Users\\Pablo\\Desktop\\Getting And Cleaning Data Project\\UCI HAR Dataset')
 
 features <-read.table('.\\features.txt',  header = FALSE, stringsAsFactors = FALSE, sep = ' ')
 ytrain <-read.table('.\\train\\y_train.txt',  header = FALSE, stringsAsFactors = FALSE, sep = ' ')
